@@ -147,6 +147,7 @@ function selectNumber(key) {
   numberButtonEl.forEach(number => {
     if (number.innerText === key) {
       number.click();
+    }
   })
 }
 
